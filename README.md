@@ -1,21 +1,21 @@
 # php preprint
-Dakowd's Noob & Simple Debug Function for quick fix tool.
+Dakowd's Noob & Simple Debug Function for quick fix tool.[^2]
 
-Add this to your PHP helper so you can call the function anywhere from your project.
+Add this to your PHP helper so you can call the function anywhere from your project.[^2]
 
-$term = any data or value, can be null, integer, array, object, etc.
-$halt = true/false or 1/0 - useful to halt the process, by default we set to false so that code after executing this will still continue, but if you want to halt, just pass a value true/1.
+$term = any data or value, can be null, integer, array, object, etc.[^1]
+$halt = true/false or 1/0 - useful to halt the process, by default we set to false so that code after executing this will still continue, but if you want to halt, just pass a value true/1.[^2]
 
 ## Use cases:
 
-Let's define some variables first to be used in the sample below:
-$array = ['a'=>1, 'b'=> 2, 'c'=>d];
-$object = (object)['a'=>1, 'b'=> 2, 'c'=>d];
-$empty_array = [];
-$empty_string = '';
-$null = null;
-$bool_false = false;
-$bool_true = true;
+Let's define some variables first to be used in the sample below:[^1]
+$array = ['a'=>1, 'b'=> 2, 'c'=>d];[^1]
+$object = (object)['a'=>1, 'b'=> 2, 'c'=>d];[^1]
+$empty_array = [];[^1]
+$empty_string = '';[^1]
+$null = null;[^1]
+$bool_false = false;[^1]
+$bool_true = true;[^1]
 
 ## Sample 1:
 <?php 
