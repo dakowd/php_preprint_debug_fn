@@ -1,9 +1,11 @@
 # php preprint
-Dakowd's Noob & Simple Debug Function
-A quick and easy debugging tool for your PHP projects!
+> Dakowd's Noob & Simple Debug Function
+> A quick and easy debugging tool for your PHP projects!
 
+```
 $term = any data or value, can be null, integer, array, object, etc.
 $halt = true/false or 1/0 - useful to halt the process, by default we set to false so that code after executing this will still continue, but if you want to halt, just pass a value true/1.
+```
 
 ## Use cases:
 
