@@ -19,7 +19,7 @@ $bool_false = false;
 $bool_true = true;
 ```
 
-## Sample 1:
+### Sample 1:
 ```
 echo 'This is a sample code for demonstrating this debug tool';
 echo '<br>';
@@ -32,7 +32,7 @@ echo 'You have reached the end of line';
 > You have reached the end of line
 ```
 
-## Sample 2:
+### Sample 2:
 echo 'This is a sample code for demonstrating this debug tool';
 echo '<br>';
 preprint('hello world!', true);
@@ -41,7 +41,7 @@ echo 'You should not see this end of line because you used preprint with halt=tr
 > This is a sample code for demonstrating this debug tool
 > hello world!
 
-## Sample 3:
+### Sample 3:
 echo 'This is a sample code for demonstrating this debug tool';
 echo '<br>';
 preprint($array, true);
@@ -55,12 +55,14 @@ echo 'You should not see this end of line because you used preprint with halt=tr
 >     [c] => d
 > )
 
-## Sample 4: 
+### Sample 4: 
+```
 echo 'This is a sample code for demonstrating this debug tool';
 echo '<br>';
 preprint($object, true);
 echo 'You should not see this end of line because you used preprint with halt=true';
-
+```
+```
 > This is a sample code for demonstrating this debug tool
 > stdClass Object
 > (
@@ -68,45 +70,53 @@ echo 'You should not see this end of line because you used preprint with halt=tr
 >     [b] => 2
 >     [c] => d
 > )
+```
 
-## Sample 5:
-<?php 
+### Sample 5:
+```
 echo 'This is a sample code for demonstrating this debug tool';
 echo '<br>';
 preprint($null, true);
 echo 'You have reached the end of line';
-?>
+```
+```
 > This is a sample code for demonstrating this debug tool
-NULL
+> NULL
+```
 
-## Sample 6:
-<?php 
+### Sample 6:
+```
 echo 'This is a sample code for demonstrating this debug tool';
 echo '<br>';
 preprint($bool_false);
-?>
+```
+```
 > This is a sample code for demonstrating this debug tool
-bool(false)
+> bool(false)
+```
 
-## Sample 7:
-<?php 
+### Sample 7:
+```
 echo 'This is a sample code for demonstrating this debug tool';
 echo '<br>';
 preprint($bool_false);
-?>
+```
+```
 > This is a sample code for demonstrating this debug tool
-array(0) {
+> array(0) {
 }
+```
 
-## Sample 8:
-<?php 
+### Sample 8:
+``` 
 echo 'This is a sample code for demonstrating this debug tool';
 echo '<br>';
 preprint($empty_string);
-?>
+```
+```
 > This is a sample code for demonstrating this debug tool
-string(0) ""
-
+> string(0) ""
+```
 
 This is very useful for such cases where the code get's complicated and you just wanted to quickly find where it goes and see that the result of a specified returned data or just a simple variable data or even just halt the process. Also useful for determining the type of data you've working on which is demonstrated differentiating type bool, null, empty string, empty array, and even empty object.
 
