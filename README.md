@@ -1,7 +1,6 @@
 # php preprint
-Dakowd's Noob & Simple Debug Function for quick fix tool.
-
-Add this to your PHP helper so you can call the function anywhere from your project.
+Dakowd's Noob & Simple Debug Function
+A quick and easy debugging tool for your PHP projects!
 
 $term = any data or value, can be null, integer, array, object, etc.
 $halt = true/false or 1/0 - useful to halt the process, by default we set to false so that code after executing this will still continue, but if you want to halt, just pass a value true/1.
@@ -105,7 +104,7 @@ preprint($bool_false);
 ```
 echo 'This is a sample code for demonstrating this debug tool';
 echo '<br>';
-preprint($bool_false);
+preprint($empty_array);
 ```
 ```
 > This is a sample code for demonstrating this debug tool
