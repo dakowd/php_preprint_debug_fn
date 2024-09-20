@@ -1,4 +1,4 @@
-# sublime-collections
+# php preprint
 Dakowd's Noob & Simple Debug Function for quick fix tool.
 
 Add this to your PHP helper so you can call the function anywhere from your project.
@@ -29,44 +29,41 @@ hello world!
 You have reached the end of line
 
 ## Sample 2:
-<?php 
 echo 'This is a sample code for demonstrating this debug tool';
 echo '<br>';
 preprint('hello world!', true);
 echo 'You should not see this end of line because you used preprint with halt=true';
-?>
+
 > This is a sample code for demonstrating this debug tool
-hello world!
+> hello world!
 
 ## Sample 3:
-<?php 
 echo 'This is a sample code for demonstrating this debug tool';
 echo '<br>';
 preprint($array, true);
 echo 'You should not see this end of line because you used preprint with halt=true';
-?>
-> This is a sample code for demonstrating this debug tool
-Array
-(
-    [a] => 1
-    [b] => 2
-    [c] => d
-)
 
-## Sample 4:
-<?php 
+> This is a sample code for demonstrating this debug tool
+> Array
+> (
+>     [a] => 1
+>     [b] => 2
+>     [c] => d
+> )
+
+## Sample 4: 
 echo 'This is a sample code for demonstrating this debug tool';
 echo '<br>';
 preprint($object, true);
 echo 'You should not see this end of line because you used preprint with halt=true';
-?>
+
 > This is a sample code for demonstrating this debug tool
-stdClass Object
-(
-    [a] => 1
-    [b] => 2
-    [c] => d
-)
+> stdClass Object
+> (
+>     [a] => 1
+>     [b] => 2
+>     [c] => d
+> )
 
 ## Sample 5:
 <?php 
