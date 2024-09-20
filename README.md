@@ -10,13 +10,13 @@ $halt = true/false or 1/0 - useful to halt the process, by default we set to fal
 
 Let's define some variables first to be used in the sample below:
 ```
-$array = ['a'=>1, 'b'=> 2, 'c'=>d];[^1]
+$array = ['a'=>1, 'b'=> 2, 'c'=>d];
 $object = (object)['a'=>1, 'b'=> 2, 'c'=>d];
-$empty_array = [];[^1]
-$empty_string = '';[^1]
-$null = null;[^1]
-$bool_false = false;[^1]
-$bool_true = true;[^1]
+$empty_array = [];
+$empty_string = '';
+$null = null;
+$bool_false = false;
+$bool_true = true;
 ```
 
 ## Sample 1:
