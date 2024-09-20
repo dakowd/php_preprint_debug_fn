@@ -20,15 +20,15 @@ $bool_true = true;
 ```
 
 ## Sample 1:
-<?php 
+```
 echo 'This is a sample code for demonstrating this debug tool';
 echo '<br>';
 preprint('hello world!');
 echo 'You have reached the end of line';
-?>
+```
 > This is a sample code for demonstrating this debug tool
-hello world!
-You have reached the end of line
+> hello world!
+> You have reached the end of line
 
 ## Sample 2:
 echo 'This is a sample code for demonstrating this debug tool';
