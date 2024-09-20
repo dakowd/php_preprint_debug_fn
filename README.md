@@ -1,6 +1,6 @@
 # php preprint
-> Dakowd's Noob & Simple Debug Function
-> A quick and easy debugging tool for your PHP projects!
+Dakowd's Noob & Simple Debug Function
+*A quick and easy debugging tool for your PHP projects!
 
 ```
 $term = any data or value, can be null, integer, array, object, etc.
