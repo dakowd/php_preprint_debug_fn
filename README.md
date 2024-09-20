@@ -125,6 +125,6 @@ preprint($empty_string);
 > string(0) ""
 ```
 
-This is very useful for such cases where the code get's complicated and you just wanted to quickly find where it goes and see that the result of a specified returned data or just a simple variable data or even just halt the process. Also useful for determining the type of data you've working on which is demonstrated differentiating type bool, null, empty string, empty array, and even empty object.
+This function is incredibly useful in complex scenarios where you need to quickly trace the flow of your code. It allows you to inspect returned data, check the value of a variable, or even pause execution. Additionally, it helps identify the type of data you’re working with by distinguishing between boolean, null, empty strings, empty arrays, and empty objects. It’s especially helpful when debugging code that you didn’t write yourself.
 
-Feel free to use and add suggestions to improved this little noob function. Cheers!
+Feel free to use it and add any suggestions for improvement. Cheers!
