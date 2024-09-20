@@ -33,20 +33,25 @@ echo 'You have reached the end of line';
 ```
 
 ### Sample 2:
+```
 echo 'This is a sample code for demonstrating this debug tool';
 echo '<br>';
 preprint('hello world!', true);
 echo 'You should not see this end of line because you used preprint with halt=true';
-
+```
+```
 > This is a sample code for demonstrating this debug tool
 > hello world!
+```
 
 ### Sample 3:
+```
 echo 'This is a sample code for demonstrating this debug tool';
 echo '<br>';
 preprint($array, true);
 echo 'You should not see this end of line because you used preprint with halt=true';
-
+```
+```
 > This is a sample code for demonstrating this debug tool
 > Array
 > (
@@ -54,6 +59,7 @@ echo 'You should not see this end of line because you used preprint with halt=tr
 >     [b] => 2
 >     [c] => d
 > )
+```
 
 ### Sample 4: 
 ```
